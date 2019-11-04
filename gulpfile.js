@@ -10,7 +10,7 @@ const frontMatter = require('gulp-front-matter');
 
 
 function css(){
-   return src('app/ui/*.css')
+   return src('app/ui/*.scss')
     .pipe(sass({outputStyle: 'compressed'}))
     .pipe(dest('prod/ui'));
 }
@@ -43,7 +43,7 @@ function reload(cb){
 }
 
 function img(){
-  return src('app/images/*.jpg')
+  return src(['app/images/*.jpg','app/images/*png'])
   .pipe(dest('prod/images'));
 }
 
