@@ -3,6 +3,7 @@ $teal: #72E8D5;
 $green: #9DFF8A;
 $yellow: #EBDD65;
 $orange: #FAAD56;
+$mobile: "only screen and (max-width: 768px)";
 
 html {
     background-color: black;
@@ -14,8 +15,6 @@ body {
     margin: 0;
     padding: 0;
     width: 95%;
-    max-width: 960px;
-    min-width: 660px;
     margin: 0 auto;
     line-height: 1.5;
 }
@@ -39,6 +38,7 @@ body > header > nav li {
     color: $teal;
     line-height: 2;
     font-weight: bold;
+    border-bottom: black solid 2px;
 }
 
 body > header > nav a {
@@ -90,6 +90,7 @@ article img {
 }
 
 footer {
+    width: 100%;
     clear: both;
     line-height: 2;
     color: #E2D2C5;
@@ -99,4 +100,18 @@ footer {
 footer address {
     text-align: center;
     font-style: normal;
+}
+
+@media #{$mobile} {
+    body{
+    width: 100%;
+    max-width: 100%;
+    min-width: 250px;
+    margin: 0;
+    }
+    body header nav ul li {
+       width: 100%;
+       
+    }
+    
 }
