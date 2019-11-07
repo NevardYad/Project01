@@ -14,5 +14,4 @@ Javascript Gulp Project year 03
 - Contact Banner --> Photo by Miryam León on Unsplash
 
 ##Costumes
-- Mens Knight Costume -->Google Images Labelled For non Commercial Reuse
--
+- Mens Knight Costume -->Google Images Labelled For non Commercial Reuse 
