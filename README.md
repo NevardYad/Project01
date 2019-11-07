@@ -3,7 +3,7 @@ Javascript Gulp Project year 03
 
 ##Development
 - 11/01/19 restarted by setting up repo
-- 11/04/19 Doing several commits and making sure to understand how to utilize git properly
+- 11/04/19 Doing several commits and making sure to understand how to utilize git properly, Wasnt aware that a 3rd page was a feature so I dont have a feature branch for that one I thought we needed it defaultly
 - 11/07/19 Feature01 done made the site mobile friendly
 
 
